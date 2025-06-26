@@ -9,7 +9,6 @@ pipeline {
                     def buildNumber = env.BUILD_NUMBER
 
                     // Print the job name and build number
-                    sudo usermod -aG docker jenkins
                     echo "Job Name: $jobName"
                     echo "Build Number: $buildNumber"
 
